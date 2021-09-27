@@ -42,3 +42,7 @@ ctx.stroke();
     last_position_x=current_position_x;
     last_position_y=current_position_y;
 }
+
+function clear_area(){
+    ctx.clearRect(0,0,Canvas.width,Canvas.height);
+}
